@@ -29,22 +29,21 @@
         	<div class="row">
             	<a href="#mobileMenu" class="menuMobile visible-sm visible-xs">Menu</a>
             	<div class="col-xs-12 col-sm-12 col-md-3"><a href="#" class="logo">Gboomba</a></div>
-                <div class="col-sm-7 col-md-offset-3 col-md-6 hidden-xs hidden-sm">
+                <div class="col-sm-7 col-md-offset-2 col-md-7 hidden-xs hidden-sm">
                 	<div class="row">
                     	<div class="col-sm-12">
                         	<ul class="list-unstyled list-inline text-right topNav">
                             	<li><a href="#">24/7 Customer care</a></li>
                                 <li><a href="#" class="trackOrder">Track order</a></li>
                                 <li><a href="#" class="popupLogin" data-toggle="modal" data-target="#myModal">Login / Sign Up</a></li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Username <i class="fa fa-caret-down"></i></a>
+                                <li class="dropdown userSettings"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Username <i class="fa fa-caret-down"></i></a>
                                     <ul class="dropdown-menu" role="menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">Nav header</li>
-                                        <li><a href="#">Separated link</a></li>
-                                        <li><a href="#">One more separated link</a></li>
+                                        <li class="active"><a href="#">View your profile</a></li>
+                                        <li><a href="#">Edit your profile</a></li>
+                                        <li><a href="#">View Order History</a></li>
+                                        <li><a href="#">Gboomba Wallet</a></li>
+                                        <li><a href="#">Help Center</a></li>
+                                        <li><a href="#">Logout</a></li>
                                     </ul>
                                 </li>                                                       
                             </ul>
@@ -290,6 +289,38 @@
                     </div>
                 </div>
                 <div class="col-md-6">
+                	<!-- Product Slider -->
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">                    
+                      <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img src="images/slider001.jpg" alt="slider001">
+                        </div>
+                        <div class="item">
+                          <img src="images/slider002.jpg" alt="slider002">
+                        </div>
+                        <div class="item">
+                          <img src="images/slider003.jpg" alt="slider002">
+                        </div>
+                        <div class="item">
+                          <img src="images/slider004.jpg" alt="slider002">
+                        </div>
+                        <div class="item">
+                          <img src="images/slider005.jpg" alt="slider002">
+                        </div>
+                    </div>
+                     <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li class="active" data-slide-to="0" data-target="#myCarousel">
+                      	<img src="images/slider001-thumb.jpg" alt="slider001"><div class="productThumbDetails">Redme Note 4G<br>Just Rs. 9999</div>
+                      </li>
+                      <li data-slide-to="1" data-target="#myCarousel"><img src="images/slider002-thumb.jpg" alt="slider002"><div class="productThumbDetails">Redme Note 4G<br>Just Rs. 9999</div></li>
+                      <li data-slide-to="2" data-target="#myCarousel"><img src="images/slider003-thumb.jpg" alt="slider003"><div class="productThumbDetails">Redme Note 4G<br>Just Rs. 9999</div></li>
+                      <li data-slide-to="3" data-target="#myCarousel"><img src="images/slider004-thumb.jpg" alt="slider004"><div class="productThumbDetails">Redme Note 4G<br>Just Rs. 9999</div></li>
+                      <li data-slide-to="4" data-target="#myCarousel"><img src="images/slider005-thumb.jpg" alt="slider005"><div class="productThumbDetails">Redme Note 4G<br>Just Rs. 9999</div></li>
+                    </ol>
+                    </div>
+                    <!-- // End Product Slider -->
                 </div>
             </div>
     </div><!-- //.container -->

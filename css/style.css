@@ -81,7 +81,7 @@ body{
 	border-collapse:collapse;
 	text-align:center;
 	background:#fff;
-	font-size:18px;
+	font-size:14px;
 	color:#333;
 	text-decoration:none;
 }
@@ -463,7 +463,6 @@ body{
 	background-color:transparent;
 	color: #fff;
 	text-decoration: none;
-	
 }
 
 .selectService li.activeTab:after{
@@ -505,13 +504,45 @@ body{
 	display:inline-block;
 	border-right:1px solid #EEEEEE;
 	padding:20px 7px 0 8px;
+	text-decoration:none;
 }
-.topNav a:hover{
+.topNav a:hover, .topNav .open a{
 	color:#26c9ff;
 }
 .topNav li:last-child a{
 	border-right:none;
 }
+.userSettings .dropdown-menu{
+	right:0;
+	left:auto;
+	border-radius:0;
+	width:205px;
+	padding:20px;
+	border:none;
+	border-top:2px solid #25C8FF;
+}
+.userSettings .dropdown-menu > li{
+	border-bottom:1px solid #EFEFEF;
+}
+.userSettings .dropdown-menu > li > a{
+	padding:10px 0;
+	font-size:13px;
+	font-weight:400;
+	text-transform:capitalize;
+	color:#8E8E8E;
+}
+.userSettings .dropdown-menu > li:last-child{
+	border-bottom:none;
+}
+.userSettings .dropdown-menu > li > a:focus, 
+.userSettings .dropdown-menu > li > a:hover,
+.userSettings .dropdown-menu > .active > a, 
+.userSettings .dropdown-menu > .active > a:focus, 
+.userSettings .dropdown-menu > .active > a:hover{
+	background-color:transparent;
+	color:#25C8FF;
+}
+
 .form-search{
 	max-width:225px;
 	float:right;
@@ -634,6 +665,57 @@ a.form-control-search {
 }
 .mainContents {
 	padding-top: 1%;
+}
+#myCarousel .carousel-inner{
+	z-index:2;
+}
+#myCarousel .carousel-indicators{
+	bottom:0;
+    left: 0;
+    margin-left: 0;
+    position: relative;
+    text-align: left;
+    width: 100%;
+	margin-top:-10px;
+}
+#myCarousel .carousel-indicators li {
+    background-color: #373F53;
+    border: none;
+	border-top:2px solid #36BBE8;
+    border-radius: 0;
+    cursor: pointer;
+	float:left;
+    height: auto;
+	text-align:center;
+    margin: 0;
+    text-indent:0;
+	font-size:12px;
+	color:#fff;
+	position:relative;
+	line-height:normal;
+    width: 20%;
+}
+#myCarousel .carousel-indicators li img{
+	max-width:100%;
+}
+.productThumbDetails{
+	padding:5px 0;
+}
+#myCarousel .carousel-indicators li.active{
+	background-color:#2A3342;
+	border-top:2px solid #36BBE8;
+}
+#myCarousel .carousel-indicators li.active:before {
+	bottom: 100%;
+	left: 48px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-bottom-color: #36BBE8;
+	border-width: 10px;
 }
 .siteinfo, .copyright, .paymentGatewayInfo{
 	text-align:left;
