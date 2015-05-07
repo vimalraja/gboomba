@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-    <title>Gboomba - Product Listing</title>
+    <title>Gboomba - Single Product</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -170,6 +170,7 @@
     </nav>
     <div class="mainContents">
     	<div class="container">
+        
         <div class="row"> 
          <div class="col-md-12">
             <ol class="breadcrumb">
@@ -179,149 +180,216 @@
             </ol>
             </div>
            </div> 
-            <h3>Mobile Phones & Tablets</h3>
+
             <div class="row">  
-             <div class="col-md-12">          
-            <div id="slider1_container" style="display: none; position: relative; margin: 0 auto; width: 1170px; height: 350px; overflow: hidden;">
+            <div class="col-md-8">
+            <div class="row"> 
+            <div class="col-md-6">
+            <div id="myCarousel-single-product" class="carousel slide" data-ride="carousel">                    
+                      <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img src="images/single-product-img.jpg" alt="singl product" >
+                        </div>
+                        <div class="item">
+                          <img src="images/single-product-img.jpg" alt="single product">
+                        </div>
+                        <div class="item">
+                          <img src="images/single-product-img.jpg" alt="single product">
+                        </div>
+                        <div class="item">
+                          <img src="images/single-product-img.jpg" alt="single product">
+                        </div>
+                      
+                    </div>
+                     <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li class="active" data-slide-to="0" data-target="#myCarousel-single-product"><img src="images/single-product-thumb-01.jpg" alt="single product"></li>
+                      <li data-slide-to="1" data-target="#myCarousel-single-product"><img src="images/single-product-thumb-02.jpg" alt="single product"></li>
+                      <li data-slide-to="2" data-target="#myCarousel-single-product"><img src="images/single-product-thumb-03.jpg" alt="single product"></li>
+                      <li data-slide-to="3" data-target="#myCarousel-single-product"><img src="images/single-product-thumb-04.jpg" alt="single product"></li>
 
-            <!-- Loading Screen -->
-            <div u="loading" style="position: absolute; top: 0px; left: 0px;">
-                <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
-
-                background-color: #000; top: 0px; left: 0px;width: 100%; height:100%;">
-                </div>
-                <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
-
-                top: 0px; left: 0px;width: 100%;height:100%;">
-                </div>
+                   
+                    </ol>
+     
+                    </div>
+            
             </div>
+            <div class="col-md-6">
+            <div class="product-detail">
+            <h3>Asus Zenfone C ZC456CG</h3>
+            <p>(Black, with 16GB, with 1.6 GHz Processor)</p>
+            <ul>
+            <li>2 GB RAM, 16 GB ROM</li>
+            <li>Upgarde to Android v4.4</li>
+            <li>8MP Pixel Master Camera</li>
+            <li>5-inch HD Display</li>
+            </ul>
+            <div class="product-like">
+            <div class="product-like-box">
+            <a href="#"><span class="pro-icons like-icon"></span><span class="product-like-text">Add to Wish List</span></a>
+            </div>
+            <div class="product-like-box"><a href="#"><span class="pro-icons revert-icon"></span><span class="product-like-text">Add to Wish List</span></a></div>
+            </div>
+            <h5>Warranty</h5>
+            <p>1 year manufacture warranty for Phone and 6 months warranty for in the box accessories</p>
+            <div class="selling-price">Selling Price: <span class="text-inline">15,999</span></div>
+            <p>Special Price <span class="special-price">Rs.9,999</span> 10% off</p>
+                        <button type="submit" class="btn btn-blue input-md input-fifty">Add to cart</button> <button type="submit" class="btn btn-red input-md input-fifty">Buy now</button>
+            </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-12"> <!--for tabs -->
+            <div class="sinlge-product-details">
+            <div role="tabpanel">
 
-            <!-- Slides Container -->
-            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1170px; height:350px;
-            overflow: hidden;">
-                <div>
-                    <img u="image" src2="images/product-banner.jpg" />
-                </div>
-                <div>
-                    <img u="image" src2="images/product-banner.jpg" />
-                </div>
-                <div>
-                    <img u="image" src2="images/product-banner.jpg" />
-                </div>
-                <div>
-                    <img u="image" src2="images/product-banner.jpg" />
-                </div>
-            </div>
-            </div>
-            </div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<ul class="sort-hd"><li>SORT BY <i class="fa fa-angle-down"></i></li><li>FILTER BY <i class="fa fa-angle-right"></i></li><li>Price</li><li> Color </li><li>Discount</li><li> Brand </li><li>Main material</li></ul>
-</div>
-</div>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#details" aria-controls="details" role="tab" data-toggle="tab">Product Details
 
-<div class="row">
-<div class="col-sm-4">
-<div class="product-item">
-<div class="hd-icons">
-<span class="pro-icons like-icon"><a href="#">like</a></span>
-<span class="pro-icons revert-icon"><a href="#">like</a></span>
-<span class="pro-icons cart-icon"><a href="#">like</a></span>
+
+</a></li>
+    <li role="presentation"><a href="#features" aria-controls="features" role="tab" data-toggle="tab">Features</a></li>
+    <li role="presentation"><a href="#offers" aria-controls="offers" role="tab" data-toggle="tab">Offers on this product</a></li>
+    <li role="presentation"><a href="#reviews" aria-controls="reviews" role="tab" data-toggle="tab">Reviews</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="details">
+    <h4>Short Description</h4>
+    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+    <h4>General Features</h4>
+    <div class="table-responsive">
+  <table class="table">
+   <tr><td>In the Box</td><td>Charger, Warranty Card, Manual, USB Cable, Handset</td></tr>
+      <tr><td>In the Box</td><td>Charger, Warranty Card, Manual, USB Cable, Handset</td></tr>
+
+   <tr><td>In the Box</td><td>Charger, Warranty Card, Manual, USB Cable, Handset</td></tr>
+
+   <tr><td>In the Box</td><td>Charger, Warranty Card, Manual, USB Cable, Handset</td></tr>
+
+   <tr><td>In the Box</td><td>Charger, Warranty Card, Manual, USB Cable, Handset</td></tr>
+
+   <tr><td>In the Box</td><td>Charger, Warranty Card, Manual, USB Cable, Handset</td></tr>
+
+  </table>
 </div>
-<div class="pro-detail">
-<div class="pro-image"><img src="images/asus-01.jpg" alt="Gboomba" /></div>
-<div class="pro-name pro-padding">Asus Zenfone C ZC456CG</div>
-<div class="pro-rate-cut pro-padding">Rs. 15,999</div>
-<div class="pro-rate-discount pro-padding">Rs. 9,999</div>
-<div class="finance pro-padding">0% Finance Available</div>
-</div>
-</div><!-- product-item-->
-</div>
-<div class="col-sm-4">
-<div class="product-item">
-<div class="hd-icons">
-<span class="pro-icons like-icon"><a href="#">like</a></span>
-<span class="pro-icons revert-icon"><a href="#">like</a></span>
-<span class="pro-icons cart-icon"><a href="#">like</a></span>
-</div>
-<div class="pro-detail">
-<div class="pro-image"><img src="images/asus-01.jpg" alt="Gboomba" /></div>
-<div class="pro-name pro-padding">Asus Zenfone C ZC456CG</div>
-<div class="pro-rate-cut pro-padding">Rs. 15,999</div>
-<div class="pro-rate-discount pro-padding">Rs. 9,999</div>
-<div class="finance pro-padding">0% Finance Available</div>
-</div>
-</div><!-- product-item-->
-</div>
-<div class="col-sm-4">
-<div class="product-item">
-<div class="hd-icons">
-<span class="pro-icons like-icon"><a href="#">like</a></span>
-<span class="pro-icons revert-icon"><a href="#">like</a></span>
-<span class="pro-icons cart-icon"><a href="#">like</a></span>
-</div>
-<div class="pro-detail">
-<div class="pro-image"><img src="images/asus-01.jpg" alt="Gboomba" /></div>
-<div class="pro-name pro-padding">Asus Zenfone C ZC456CG</div>
-<div class="pro-rate-cut pro-padding">Rs. 15,999</div>
-<div class="pro-rate-discount pro-padding">Rs. 9,999</div>
-<div class="finance pro-padding">0% Finance Available</div>
-</div>
-</div><!-- product-item-->
+    </div>
+    <div role="tabpanel" class="tab-pane" id="features">
+        <h4>Short Description</h4>
+    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="offers">
+        <h4>Short Description</h4>
+    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="reviews">
+        <h4>Short Description</h4>
+    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+    </div>
+  </div>
+
 </div>
 </div>
-         
-<div class="row">
-<div class="col-sm-4">
-<div class="product-item">
-<div class="hd-icons">
-<span class="pro-icons like-icon"><a href="#">like</a></span>
-<span class="pro-icons revert-icon"><a href="#">like</a></span>
-<span class="pro-icons cart-icon"><a href="#">like</a></span>
-</div>
-<div class="pro-detail">
-<div class="pro-image"><img src="images/asus-01.jpg" alt="Gboomba" /></div>
-<div class="pro-name pro-padding">Asus Zenfone C ZC456CG</div>
-<div class="pro-rate-cut pro-padding">Rs. 15,999</div>
-<div class="pro-rate-discount pro-padding">Rs. 9,999</div>
-<div class="finance pro-padding">0% Finance Available</div>
-</div>
-</div><!-- product-item-->
-</div>
-<div class="col-sm-4">
-<div class="product-item">
-<div class="hd-icons">
-<span class="pro-icons like-icon"><a href="#">like</a></span>
-<span class="pro-icons revert-icon"><a href="#">like</a></span>
-<span class="pro-icons cart-icon"><a href="#">like</a></span>
-</div>
-<div class="pro-detail">
-<div class="pro-image"><img src="images/asus-01.jpg" alt="Gboomba" /></div>
-<div class="pro-name pro-padding">Asus Zenfone C ZC456CG</div>
-<div class="pro-rate-cut pro-padding">Rs. 15,999</div>
-<div class="pro-rate-discount pro-padding">Rs. 9,999</div>
-<div class="finance pro-padding">0% Finance Available</div>
-</div>
-</div><!-- product-item-->
-</div>
-<div class="col-sm-4">
-<div class="product-item">
-<div class="hd-icons">
-<span class="pro-icons like-icon"><a href="#">like</a></span>
-<span class="pro-icons revert-icon"><a href="#">like</a></span>
-<span class="pro-icons cart-icon"><a href="#">like</a></span>
-</div>
-<div class="pro-detail">
-<div class="pro-image"><img src="images/asus-01.jpg" alt="Gboomba" /></div>
-<div class="pro-name pro-padding">Asus Zenfone C ZC456CG</div>
-<div class="pro-rate-cut pro-padding">Rs. 15,999</div>
-<div class="pro-rate-discount pro-padding">Rs. 9,999</div>
-<div class="finance pro-padding">0% Finance Available</div>
-</div>
-</div><!-- product-item-->
-</div>
-</div>         
+            
+            </div>
+            </div> 
+            </div>          
+            <div class="col-md-4">
+            <div class="sidebar-product-list">
+            <h5>Related Products(5)</h5>
+            <ul>
+            <li>
+            <div class="sidebar-thumb-bx"><img src="images/side-product-01.jpg" alt="related products"/></div>
+            <div class="sidebar-content-bx">
+            <p>Asus Zenfone C ZC456CG (Black, with 16GB,</p>
+            <p>Selling Price: <span class="text-inline">15,999</span></p>
+            <p>Rs.9,999</p>
+            </div>
+            </li>
+            <li>
+            <div class="sidebar-thumb-bx"><img src="images/side-product-01.jpg" alt="related products"/></div>
+            <div class="sidebar-content-bx">
+            <p>Asus Zenfone C ZC456CG (Black, with 16GB,</p>
+            <p>Selling Price: <span class="text-inline">15,999</span></p>
+            <p>Rs.9,999</p>
+            </div>
+            </li>
+            <li>
+            <div class="sidebar-thumb-bx"><img src="images/side-product-01.jpg" alt="related products"/></div>
+            <div class="sidebar-content-bx">
+            <p>Asus Zenfone C ZC456CG (Black, with 16GB,</p>
+            <p>Selling Price: <span class="text-inline">15,999</span></p>
+            <p>Rs.9,999</p>
+            </div>
+            </li>
+                        <li>
+            <div class="sidebar-thumb-bx"><img src="images/side-product-01.jpg" alt="related products"/></div>
+            <div class="sidebar-content-bx">
+            <p>Asus Zenfone C ZC456CG (Black, with 16GB,</p>
+            <p>Selling Price: <span class="text-inline">15,999</span></p>
+            <p>Rs.9,999</p>
+            </div>
+            </li>
+                        <li>
+            <div class="sidebar-thumb-bx"><img src="images/side-product-01.jpg" alt="related products"/></div>
+            <div class="sidebar-content-bx">
+            <p>Asus Zenfone C ZC456CG (Black, with 16GB,</p>
+            <p>Selling Price: <span class="text-inline">15,999</span></p>
+            <p>Rs.9,999</p>
+            </div>
+            </li>                        
+            </ul>
+            
+			<h5>You Recently Viewed</h5>
+            <ul>
+            <li>
+            <div class="sidebar-thumb-bx"><img src="images/side-product-01.jpg" alt="related products"/></div>
+            <div class="sidebar-content-bx">
+            <p>Asus Zenfone C ZC456CG (Black, with 16GB,</p>
+            <p>Selling Price: <span class="text-inline">15,999</span></p>
+            <p>Rs.9,999</p>
+            </div>
+            </li>
+            <li>
+            <div class="sidebar-thumb-bx"><img src="images/side-product-01.jpg" alt="related products"/></div>
+            <div class="sidebar-content-bx">
+            <p>Asus Zenfone C ZC456CG (Black, with 16GB,</p>
+            <p>Selling Price: <span class="text-inline">15,999</span></p>
+            <p>Rs.9,999</p>
+            </div>
+            </li>
+            <li>
+            <div class="sidebar-thumb-bx"><img src="images/side-product-01.jpg" alt="related products"/></div>
+            <div class="sidebar-content-bx">
+            <p>Asus Zenfone C ZC456CG (Black, with 16GB,</p>
+            <p>Selling Price: <span class="text-inline">15,999</span></p>
+            <p>Rs.9,999</p>
+            </div>
+            </li>
+                        <li>
+            <div class="sidebar-thumb-bx"><img src="images/side-product-01.jpg" alt="related products"/></div>
+            <div class="sidebar-content-bx">
+            <p>Asus Zenfone C ZC456CG (Black, with 16GB,</p>
+            <p>Selling Price: <span class="text-inline">15,999</span></p>
+            <p>Rs.9,999</p>
+            </div>
+            </li>
+                        <li>
+            <div class="sidebar-thumb-bx"><img src="images/side-product-01.jpg" alt="related products"/></div>
+            <div class="sidebar-content-bx">
+            <p>Asus Zenfone C ZC456CG (Black, with 16GB,</p>
+            <p>Selling Price: <span class="text-inline">15,999</span></p>
+            <p>Rs.9,999</p>
+            </div>
+            </li>                        
+            </ul>            
+            </div>
+            </div>
+			</div>
+ 
             
   
     </div><!-- //.container -->
@@ -556,7 +624,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.mmenu.min.js"></script>
-    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+
     <script>
 	 $(function () {
 		$('#myModal').modal('hide');
@@ -564,66 +632,7 @@
 		$("#mobileMenu").mmenu();
 		$('.dropdown-toggle').dropdown()
 		
-		 var options = {
-                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
-                $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
-                $AutoPlayInterval: 2000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
-                $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
-
-                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
-                $SlideEasing: $JssorEasing$.$EaseOutQuint,          //[Optional] Specifies easing for right to left animation, default value is $JssorEasing$.$EaseOutQuad
-                $SlideDuration: 800,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
-                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
-                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
-                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
-                $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
-                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
-                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
-                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
-                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
-                $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
-
-                $ArrowNavigatorOptions: {                           //[Optional] Options to specify and enable arrow navigator or not
-                    $Class: $JssorArrowNavigator$,                  //[Requried] Class to create arrow navigator instance
-                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
-                    $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
-                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
-                    $Scale: false                                   //Scales bullets navigator or not while slider scale
-                },
-
-                $BulletNavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
-                    $Class: $JssorBulletNavigator$,                       //[Required] Class to create navigator instance
-                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
-                    $AutoCenter: 1,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
-                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
-                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
-                    $SpacingX: 12,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
-                    $SpacingY: 4,                                   //[Optional] Vertical space between each item in pixel, default value is 0
-                    $Orientation: 1,                                //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
-                    $Scale: false                                   //Scales bullets navigator or not while slider scale
-                }
-            };
-
-            //Make the element 'slider1_container' visible before initialize jssor slider.
-            $("#slider1_container").css("display", "block");
-            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
-
-            //responsive code begin
-            //you can remove responsive code if you don't want the slider scales while window resizes
-            function ScaleSlider() {
-                var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
-                if (parentWidth) {
-                    jssor_slider1.$ScaleWidth(parentWidth - 30);
-                }
-                else
-                    window.setTimeout(ScaleSlider, 30);
-            }
-            ScaleSlider();
-
-            $(window).bind("load", ScaleSlider);
-            $(window).bind("resize", ScaleSlider);
-            $(window).bind("orientationchange", ScaleSlider);
-            //responsive code end
+		
 	 });
 	 </script>
 </body>

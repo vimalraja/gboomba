@@ -71,3 +71,79 @@
 .pro-rate-discount{font-size:22px; }
 .finance{font-size:12px; }
 .pro-padding{ padding:3px 0;}
+
+#myCarousel-single-product .carousel-inner{
+	z-index:2;
+}
+#myCarousel-single-product .carousel-indicators{
+	bottom:0;
+    left: 0;
+    margin-left: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+	margin-top:30px;
+}
+#myCarousel-single-product .carousel-indicators li {
+    background-color: #dce0e3;
+	border:1px solid #999999;
+    border-radius: 0;
+    cursor: pointer;
+	display:inline-block;
+    height: auto;
+	text-align:center;
+    margin: 0 5px;
+    text-indent:0;
+	font-size:12px;
+	color:#fff;
+	position:relative;
+	line-height:normal;
+    width: auto;
+	
+}
+#myCarousel-single-product .carousel-indicators li:first-child{ margin-left:0;}
+#myCarousel-single-product .carousel-indicators li:last-child{ margin-right:0;}
+#myCarousel-single-product .carousel-indicators li img{
+	max-width:100%;
+}
+.productThumbDetails{
+	padding:5px 0;
+}
+#myCarousel-single-product .carousel-indicators li.active{
+	background-color:#dce0e3;
+}
+#myCarousel-single-product .carousel-inner > .item{ text-align:center;}
+#myCarousel-single-product .carousel-inner > .item img{ display:inline-block}
+.product-detail{ margin:30px 0 30px 20px; text-align:center}
+.product-detail h3{ border-bottom:1px solid #dce0e3; padding-bottom:10px; font-weight:600; margin-top:0; }
+.product-like-box {display:inline-block; width:140px; margin:10px 0px; }
+.product-like-box span{ vertical-align:middle;display:inline-block;}
+.product-like-box .product-like-text {width:80px; padding:0 10px;}
+.product-like-box a{ display:inline-block; vertical-align:middle; font-size:12px; line-height:normal;}
+.selling-price{ margin:10px 0; font-size:16px;}
+.text-inline{ text-decoration:line-through;}
+.special-price{ font-size:24px; display:block; padding:5px 0;}
+
+.sidebar-product-list ul{ margin:0 0 30px; padding:0;}
+.sidebar-product-list ul li{ list-style:none; background:#dce0e3; box-sizing:border-box; padding:20px; margin-bottom:10px;}
+.sidebar-product-list ul li > div{display:inline-block; vertical-align:top}
+.sidebar-content-bx{display:inline-block; width:70%; margin-left:20px;}
+.input-fifty{ width:40%; margin:0 5px; display:inline-block; vertical-align:top; text-transform:uppercase; color:#fff; font-weight:normal;} 
+.btn-blue{ background:#25c8ff;}
+.sinlge-product-details{ margin:30px 0 0;}
+.sinlge-product-details .nav-tabs{ margin-left:10px;}
+.sinlge-product-details .nav-tabs li > a{ background:#dce0e3; border-raduis:5px 5px 0 0; margin-right:3px; border:none; color:#6d6e70;}
+.sinlge-product-details .nav-tabs > li.active > a, .sinlge-product-details .nav-tabs > li.active > a:focus, .sinlge-product-details .nav-tabs > li.active > a:hover{background:#25c8ff; border:none; color:#fff;}
+.sinlge-product-details .tab-content{ border:1px solid #25c8ff; border-top:3px solid #25c8ff;  padding:15px;}
+.sinlge-product-details .tab-content h4{ font-size:13px; font-weight:bold;}
+.sinlge-product-details .tab-content p{ font-size:13px; line-height:normal;}
+.sinlge-product-details .table tr td{ border-top: none; border-bottom:1px solid #ddd;}
+.sinlge-product-details .table tr td:nth-child(1){ border-right:1px solid #ddd;}
+.sinlge-product-details .table tr:last-child td{ border-bottom:none;}
+
+
+@media (min-width:768px) {}
+@media (min-width:992px) {.product-detail{ margin:0 0 0 20px; text-align:left}}
+@media (min-width:1200px) {}
+@media (max-width:767px) {}
+@media (min-width:768px)and (max-width:991px) {}
